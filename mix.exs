@@ -21,8 +21,8 @@ defmodule PhoenixSlime.Mixfile do
 
   def deps do
     [
-      {:phoenix, "~> 1.4"},
-      {:phoenix_html, "~> 2.13"},
+      {:phoenix, "~> 1.5"},
+      {:phoenix_html, "~> 3.0"},
       {:jason, "~> 1.0", optional: true},
       {:slime, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
